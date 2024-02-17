@@ -1,0 +1,10 @@
+__pycache__/
+**/__pycache__/
+
+.vscode/
+.git/
+data/lcsts/
+data/translation2019zh/
+models/
+
+**/*.bin
