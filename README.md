@@ -12,7 +12,7 @@
 
 **文本匹配（Text Matching）**：句子对的分类任务，比如相似匹配是判断两个句子是否相似；自然语言推理是判断两个句子之间的逻辑关系（蕴含、中立、矛盾）等。在预训练时代，句子匹配任务的标准做法就是将两个句子用 [SEP] 连接起来，然后当成单文本分类任务来做。
 
-<img src="https://img2023.cnblogs.com/blog/1641623/202402/1641623-20240217104746710-874103643.png" alt="fcf444cd-acfa-47cf-8f2b-28c224613f5c" style="zoom: 50%;" />
+<img src="https://img2023.cnblogs.com/blog/1641623/202402/1641623-20240217104746710-874103643.png" alt="fcf444cd-acfa-47cf-8f2b-28c224613f5c" width="50%" height="50%" />
 
 ## 翻译任务
 
@@ -31,7 +31,7 @@
 
 抽取式问答模型通常采用纯 Encoder 框架，例如 BERT，它更适用于处理事实性问题，即问题的答案通常就包含在上下文；而生成式问答模型通常采用 Encoder-Decoder 框架（例如 T5、BART），它更适用于处理开放式问题，这些问题的答案通常需要结合上下文语义再进行抽象表达。
 
-<img src="https://img2023.cnblogs.com/blog/1641623/202402/1641623-20240217110155194-58968817.png" alt="fcf444cd-acfa-47cf-8f2b-28c224613f5c" style="zoom: 50%;" />
+<img src="https://img2023.cnblogs.com/blog/1641623/202402/1641623-20240217110155194-58968817.png" alt="fcf444cd-acfa-47cf-8f2b-28c224613f5c" width="50%" height="50%" />
 
 ## 情感分析 Prompting
 
